@@ -25,7 +25,7 @@ Funcion Hackerrank
 function main() {
     var time = readLine();
     var horacompleta = time.split(":");
-    var hora = Number(horacompleta[0]);
+    var hora = parseInt(horacompleta[0]);
     var minutos = horacompleta[1];
     var segundos = horacompleta[2].substr(0,2);
     var ampm = horacompleta[2].substr(2);

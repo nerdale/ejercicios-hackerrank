@@ -20,7 +20,6 @@ function timeConvert(parametro){
     }
     document.write(hora + ":" + minutos + ":" + segundos);
 }
-
 /*
 Funcion Hackerrank
 function main() {
